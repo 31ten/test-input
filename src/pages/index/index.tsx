@@ -88,7 +88,7 @@ export default function UserRegister() {
                 <Input
                   id="lastName"
                   className="form__input"
-                  onChange={(e) => {
+                  onInput={(e) => {
                     userChange(e, "lastName");
                   }}
                   value={user.lastName}
@@ -101,7 +101,7 @@ export default function UserRegister() {
                 <Input
                   id="firstName"
                   className="form__input"
-                  onChange={(e) => {
+                  onInput={(e) => {
                     userChange(e, "firstName");
                   }}
                   value={user.firstName}
@@ -119,7 +119,7 @@ export default function UserRegister() {
                 <Input
                   id="lastname"
                   className="form__input"
-                  onChange={(e) => {
+                  onInput={(e) => {
                     userChange(e, "phone");
                   }}
                   value={user.phone}
